@@ -127,12 +127,6 @@
 			children = (
 				B59D9318247C307A00E4CD74 /* Localizable.strings */,
 				B59D931D247C30D200E4CD74 /* Localizable.strings */,
-				B59D9312247C2E4300E4CD74 /* Fonts */,
-				B57207A22473F1750009B398 /* UIButton + Border.swift */,
-				B57207A02473F13E0009B398 /* ViewController.swift */,
-				B572079E2473F08B0009B398 /* Constants.swift */,
-				B572079D2473D1720009B398 /* Views */,
-				B57207982473CF1E0009B398 /* Controllers */,
 				B57207582473C4430009B398 /* Success Builder */,
 				B57207722473C4440009B398 /* Success BuilderTests */,
 				B572077D2473C4450009B398 /* Success BuilderUITests */,
@@ -155,6 +149,12 @@
 		B57207582473C4430009B398 /* Success Builder */ = {
 			isa = PBXGroup;
 			children = (
+				B59D9312247C2E4300E4CD74 /* Fonts */,
+				B57207A22473F1750009B398 /* UIButton + Border.swift */,
+				B57207A02473F13E0009B398 /* ViewController.swift */,
+				B572079E2473F08B0009B398 /* Constants.swift */,
+				B572079D2473D1720009B398 /* Views */,
+				B57207982473CF1E0009B398 /* Controllers */,
 				B57207592473C4430009B398 /* AppDelegate.swift */,
 				B59D930F2476B0A200E4CD74 /* Success Buider.xcdatamodeld */,
 				B572075B2473C4430009B398 /* SceneDelegate.swift */,
