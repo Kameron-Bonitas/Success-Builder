@@ -8,7 +8,7 @@
 
 import Foundation
 import UIKit
-import MGSwipeTableCell
+//import MGSwipeTableCell
 
 class ListTableViewCell: UITableViewCell{
 

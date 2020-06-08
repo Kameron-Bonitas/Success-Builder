@@ -90,7 +90,7 @@ class MyAffirmationsViewController: UIViewController,UITableViewDelegate,UITable
         setupBackground(imageView: backgroundImage, imageNamed: "background.png", to: self.view)
         
         //titleLabel
-        titleLabel.text = NSLocalizedString( "My Affirmations", comment: "My Affirmations")
+        titleLabel.text = NSLocalizedString( "MY AFFIRMATIONS", comment: "MY AFFIRMATIONS")
         titleLabel.textAlignment = .center
         titleLabel.font = UIFont(name: titleLabel.font.fontName, size: 40)
         titleLabel.textColor = UIColor(named: "bigLableTextColor")
@@ -219,7 +219,7 @@ func configureTableView(){
             imageView.trailingAnchor.constraint(equalTo: self.view.trailingAnchor)
         ])
         //MARK: Castom Font Instance
-        guard let customFont = UIFont(name: "Lato-Regular", size:UIFont.labelFontSize) else {
+        guard let customFont = UIFont(name: "Lato-Light", size:UIFont.labelFontSize) else {
             fatalError("""
                         Failed to load the "Lato-Light" font.
                         Make sure the font file is included in the project and the font name is spelled correctly.

@@ -108,9 +108,9 @@ class ListAffirmationsViewController: UIViewController, UITableViewDelegate, UIT
        private func setupLayout() {
        setupBackground(imageView: backgroundImage, imageNamed: "background.png", to: self.view)
         //titleLabel
-        titleLabel.text = NSLocalizedString("Choose Affirmations", comment: "Choose Affirmations")
+        titleLabel.text = NSLocalizedString("CHOOSE AFFIRMATIONS", comment: "CHOOSE AFFIRMATIONS")
         titleLabel.textAlignment = .center
-        titleLabel.font = UIFont(name: titleLabel.font.fontName, size: 40)
+        titleLabel.font = UIFont(name: titleLabel.font.fontName, size: 32)
         titleLabel.textColor = UIColor(named: "bigLableTextColor")
         self.view.addSubview(titleLabel)
         titleLabel.translatesAutoresizingMaskIntoConstraints = false
@@ -210,9 +210,9 @@ class ListAffirmationsViewController: UIViewController, UITableViewDelegate, UIT
         cell.clipsToBounds = true
         //  Selection colour of cell is custom
          cell.selectionStyle = .none
-        let backgroundView = UIView()
-        backgroundView.backgroundColor = UIColor (named: "selectedListCellColor")
-        cell.selectedBackgroundView = backgroundView
+//        let backgroundView = UIView()
+//        backgroundView.backgroundColor = UIColor (named: "selectedListCellColor")
+//        cell.selectedBackgroundView = backgroundView
             return cell
          }
 
