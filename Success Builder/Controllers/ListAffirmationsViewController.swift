@@ -57,11 +57,6 @@ class ListAffirmationsViewController: UIViewController, UITableViewDelegate, UIT
     
     
     
-    //    delete this code after all debugging is done, this line of code checks if the controller was deallocated from memory
-    deinit {
-        print("ListAffirmationsController was removed from memory")
-    }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         setupLayout()
@@ -108,9 +103,9 @@ class ListAffirmationsViewController: UIViewController, UITableViewDelegate, UIT
        private func setupLayout() {
        setupBackground(imageView: backgroundImage, imageNamed: "background.png", to: self.view)
         //titleLabel
-        titleLabel.text = NSLocalizedString("CHOOSE AFFIRMATIONS", comment: "CHOOSE AFFIRMATIONS")
+        titleLabel.text = NSLocalizedString("AFFIRMATIONS", comment: "AFFIRMATIONS")
         titleLabel.textAlignment = .center
-        titleLabel.font = UIFont(name: titleLabel.font.fontName, size: 32)
+        titleLabel.font = UIFont(name: titleLabel.font.fontName, size: 40)
         titleLabel.textColor = UIColor(named: "bigLableTextColor")
         self.view.addSubview(titleLabel)
         titleLabel.translatesAutoresizingMaskIntoConstraints = false

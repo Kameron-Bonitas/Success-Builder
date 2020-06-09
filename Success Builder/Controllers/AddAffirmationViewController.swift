@@ -16,11 +16,7 @@ class AddAffirmationViewController: UIViewController {
         let cancelButton = UIButton()
         let backgroundColorView: UIView = UIView()
 
-    
-//    delete this code after all debugging is done, this line of code checks if the controller was deallocated from memory
-    deinit {
-        print("AddAffirmationController was removed from memory")
-    }
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -61,7 +57,7 @@ class AddAffirmationViewController: UIViewController {
         setupBackground(imageView: backgroundImage, imageNamed: "background.png", to: self.view)
         
         //Own affirmation button
-        ownAffiButton.setTitle(NSLocalizedString("Add my own affirmation", comment: "Add my own affirmation"), for: .normal)
+        ownAffiButton.setTitle(NSLocalizedString("Add my own", comment: "Add my own"), for: .normal)
         ownAffiButton.setTitleColor(UIColor (named: "bigButtonTextColor"), for: .normal)
      ownAffiButton.titleLabel?.font = UIFont(name: "Lato-Light", size: 30)
         ownAffiButton.backgroundColor = UIColor(named: "bigButtonColor")
