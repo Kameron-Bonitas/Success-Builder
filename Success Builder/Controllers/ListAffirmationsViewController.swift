@@ -52,7 +52,50 @@ class ListAffirmationsViewController: UIViewController, UITableViewDelegate, UIT
     NSLocalizedString("I am positive-minded and filled with self-esteem.",comment: "I am positive-minded and filled with self-esteem."),
     NSLocalizedString("I think only positive things about people. I accept that everyone does their best.",comment: "I think only positive things about people. I accept that everyone does their best."),
     NSLocalizedString("I have something special to offer the world.",comment: "I have something special to offer the world."),
-    NSLocalizedString("My future depends only on me!", comment: "My future depends only on me!")
+    NSLocalizedString("My future depends only on me!", comment: "My future depends only on me!"),
+        
+        
+        NSLocalizedString("My life is just beginning." , comment: "My life is just beginning."),
+        NSLocalizedString("My fears of tomorrow are simply melting away." , comment: "My fears of tomorrow are simply melting away."),
+        NSLocalizedString("Everything that is happening now is happening for my ultimate good." , comment: "Everything that is happening now is happening for my ultimate good."),
+        NSLocalizedString("Though these times are difficult, they are only a short phase of life." , comment:"Though these times are difficult, they are only a short phase of life."),
+        NSLocalizedString(" I am a powerhouse; I am indestructible.", comment: " I am a powerhouse; I am indestructible."),
+        NSLocalizedString("Today, I abandon my old habits and take up new, more positive ones." , comment: "Today, I abandon my old habits and take up new, more positive ones."),
+        NSLocalizedString("My body is healthy; my mind is brilliant; my soul is tranquil." , comment: "My body is healthy; my mind is brilliant; my soul is tranquil."),
+        NSLocalizedString("I forgive those who have harmed me in my past and peacefully detach from them." , comment: "I forgive those who have harmed me in my past and peacefully detach from them."),
+        NSLocalizedString(" I have been given endless talents which I begin to utilize today." , comment: " I have been given endless talents which I begin to utilize today."),
+        NSLocalizedString("I take pleasure in my own solitude." , comment: "I take pleasure in my own solitude."),
+        NSLocalizedString("I feel the love of those who are not physically around me." , comment: "I feel the love of those who are not physically around me."),
+        NSLocalizedString(" I make the right choices every time." , comment: " I make the right choices every time."),
+        NSLocalizedString(" I trust myself." , comment: " I trust myself."),
+        NSLocalizedString("I focus on breathing and grounding myself." , comment: "I focus on breathing and grounding myself."),
+        NSLocalizedString("I breathe in calmness and breathe out nervousness." , comment: "I breathe in calmness and breathe out nervousness."),
+        NSLocalizedString("This situation works out for my highest good." , comment: "This situation works out for my highest good."),
+        NSLocalizedString("I let go of my anger so I can see clearly." , comment: "I let go of my anger so I can see clearly."),
+        NSLocalizedString("I forgive myself for all the mistakes I have made." , comment: "I forgive myself for all the mistakes I have made."),
+        NSLocalizedString("I choose to find hopeful and optimistic ways to look at this." , comment: "I choose to find hopeful and optimistic ways to look at this."),
+        NSLocalizedString("I refuse to give up because I haven’t tried all possible ways." , comment: "I refuse to give up because I haven’t tried all possible ways."),
+        NSLocalizedString("I love my family even if they do not understand me completely." , comment: "I love my family even if they do not understand me completely."),
+        NSLocalizedString("I trust myself to make the best decision for me." , comment: "I trust myself to make the best decision for me."),
+        NSLocalizedString("I surround myself with people who treat me well." , comment: "I surround myself with people who treat me well."),
+        NSLocalizedString("I am beautiful and smart and that’s how everyone sees me." , comment: "I am beautiful and smart and that’s how everyone sees me."),
+        NSLocalizedString("I play a big role in my own career success." , comment:"I play a big role in my own career success."),
+        NSLocalizedString(" I believe in my ability to change the world with the work that I do." , comment: " I believe in my ability to change the world with the work that I do."),
+        NSLocalizedString(" Today will be a gorgeous day to remember." , comment: " Today will be a gorgeous day to remember."),
+        NSLocalizedString("I accept everyone as they are and continue on with pursuing my dream." , comment: "I accept everyone as they are and continue on with pursuing my dream."),
+        NSLocalizedString("I am a money magnet and attract wealth and abundance." , comment: "I am a money magnet and attract wealth and abundance."),
+        NSLocalizedString("I let go of worries that drain my energy." , comment: "I let go of worries that drain my energy."),
+        NSLocalizedString("All my problems have a solution." , comment: "All my problems have a solution."),
+        NSLocalizedString("The answer is right before me, even if I am not seeing it yet." , comment: "The answer is right before me, even if I am not seeing it yet."),
+        NSLocalizedString("I compare myself only to my highest self." , comment: "I compare myself only to my highest self."),
+        NSLocalizedString("I am happy in my own skin and in my own circumstances." , comment: "I am happy in my own skin and in my own circumstances."),
+        NSLocalizedString(" I am a good person at all times of day and night.", comment: " I am a good person at all times of day and night."),
+        NSLocalizedString(" I give up the habit to criticize myself." , comment: " I give up the habit to criticize myself."),
+        NSLocalizedString("I am more than good enough and I get better every day." , comment:"I am more than good enough and I get better every day."),
+        NSLocalizedString("I cannot give up until I have tried every conceivable way.", comment: "I cannot give up until I have tried every conceivable way."),
+        NSLocalizedString("The past has no power over me anymore.", comment:"The past has no power over me anymore.")
+
+
 ]
     
     
