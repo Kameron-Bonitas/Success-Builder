@@ -16,6 +16,9 @@ import StoreKit
 
 class MyAffirmationsViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
     
+    //This is a branch for testing Siri
+    
+    
     //MARK: - Properties
     let backgroundImage = UIImageView()
     let titleLabel = UILabel()
