@@ -18,9 +18,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
 //printFonts()
         //  Asking for user authorisation
-        UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .badge, .sound]) { (granted, error) in
+        UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .sound, .carPlay]) { (granted, error) in
 //print("granted: (\(granted)")
         }
+        
+        UIApplication.shared.applicationIconBadgeNumber = 0
+        
         UNUserNotificationCenter.current().delegate = self
         // Prompt Screen
         hasAlreadyLaunched = UserDefaults.standard.bool(forKey: "hasAlreadyLaunched")
