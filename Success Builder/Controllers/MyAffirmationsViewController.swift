@@ -56,6 +56,7 @@ class MyAffirmationsViewController: UIViewController,UITableViewDelegate,UITable
         configureTableView()
         view.backgroundColor = .white //  Vyrishennya zatemnenogo backgroundImage
         countAppLaunchesSwitchOnThem()          // Prompt Screen
+//listScheduledNotifications()
         }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -300,10 +301,15 @@ func configureTableView(){
         content.title = NotificationReminder.title
         content.body = NotificationReminder.body
         content.sound = UNNotificationSound.default
-        content.badge = 1
+//        content.badge = 1
         content.categoryIdentifier = "alarm.category"
+
+        let date = Calendar.current.date(from: components)
+        let triggerDaily = Calendar.current.dateComponents ([.hour,.minute,.second,], from: date!)
         
-        let trigger = UNCalendarNotificationTrigger(dateMatching: components, repeats: repeatIsSet)
+        let trigger = UNCalendarNotificationTrigger(dateMatching:triggerDaily, repeats: true)
+        
+
         let request = UNNotificationRequest(identifier: content.body, content: content, trigger: trigger)
         
         UNUserNotificationCenter.current().add(request) { (error) in
@@ -313,6 +319,19 @@ func configureTableView(){
             }
         }
     }
+    
+    
+    
+// Debugging to check what local notifications have been scheduled:
+//    func listScheduledNotifications()
+//    {
+//        UNUserNotificationCenter.current().getPendingNotificationRequests { notifications in
+//
+//            for notification in notifications {
+//                print(notification)
+//            }
+//        }
+//    }
     
     //MARK: - Functions // Notification Action. Defining Actions. "Do Not Repeat"
     func setCategories(){
