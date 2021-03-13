@@ -273,6 +273,9 @@ func configureTableView(){
                 }
             case .denied, .notDetermined, .provisional:
                 self.goToSettingsAllert(alertTitle: SettingsAlertNotifications.title, alertMessage: SettingsAlertNotifications.message, alertActionTitle: SettingsAlertNotifications.settingActionTitle, alertCancelActionTitle: SettingsAlertNotifications.cancelActionTitle)
+            case .ephemeral:
+                //TODO: add logic for this case
+            print("ephemeral case")
             @unknown default:
                 print("unknown case of authorisationStatus")
              }
