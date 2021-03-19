@@ -12,7 +12,8 @@ class DatePickerPopupViewController: UIViewController {
 
 
         //MARK: - Constants
-        private let mainViewHeight: CGFloat = 300
+    //TODO: Check if this height 230 (before 300) looks good on all devices
+        private let mainViewHeight: CGFloat = 230
         private let mainViewWidth: CGFloat = 300
         private let titleLabelHeight: CGFloat = 55
         private let buttonHeight: CGFloat = 55
@@ -173,11 +174,13 @@ class DatePickerPopupViewController: UIViewController {
             //datePicker
             datePicker.translatesAutoresizingMaskIntoConstraints = false
             
+            //TODO: Check if these constraints work correctly on all devices and center correctly onYaxis
             NSLayoutConstraint.activate([
+                datePicker.centerXAnchor.constraint(equalTo: view.centerXAnchor),
                  datePicker.topAnchor.constraint(equalTo: titleLabel.bottomAnchor),
                  datePicker.bottomAnchor.constraint(equalTo:switchLabel.topAnchor),
-                 datePicker.leadingAnchor.constraint(equalTo: view.leadingAnchor),
-                 datePicker.trailingAnchor.constraint(equalTo: view.trailingAnchor)
+//                 datePicker.leadingAnchor.constraint(equalTo: view.leadingAnchor),
+//                 datePicker.trailingAnchor.constraint(equalTo: view.trailingAnchor)
                 ])
             
             //buttonStackView
