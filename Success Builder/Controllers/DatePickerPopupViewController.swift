@@ -174,10 +174,11 @@ class DatePickerPopupViewController: UIViewController {
             //datePicker
             datePicker.translatesAutoresizingMaskIntoConstraints = false
             
-            //TODO: Check if these constraints work correctly on all devices and center correctly onYaxis
+//            TODO: Check if these constraints work correctly on all devices and center                      correctly onYaxis ////// DONE
+//  "constant 18" has been added
             NSLayoutConstraint.activate([
                 datePicker.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-                 datePicker.topAnchor.constraint(equalTo: titleLabel.bottomAnchor),
+                 datePicker.topAnchor.constraint(equalTo: titleLabel.bottomAnchor, constant: 18),
                  datePicker.bottomAnchor.constraint(equalTo:switchLabel.topAnchor),
 //                 datePicker.leadingAnchor.constraint(equalTo: view.leadingAnchor),
 //                 datePicker.trailingAnchor.constraint(equalTo: view.trailingAnchor)
